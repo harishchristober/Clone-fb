@@ -152,7 +152,8 @@
   }
 
   .loginRegisterButton {
-    margin-left: 3.5rem;
+    width:100%;
+    margin-left: 0;
   }
 
 }

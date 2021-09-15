@@ -101,25 +101,32 @@
 
     .share{
         width: 100%;
-        height: 12rem;
+        height: 15rem;
     }
 
     .shareoption{
-        margin-right: 1.2rem;
+        margin-right: 3.8rem;
+        margin-top: .8rem;
         
     }
+
     .sharebottom {
         flex-wrap: wrap;
         position: relative;
     }
+
+    .shareoptions{
+        flex-wrap: wrap;
+    }
+    
     .shareicon{
         margin-right: .2rem;
     }
 
     .sharebtn {
         position: absolute;
-        right: -1rem;
-       
-        bottom: -3.3rem;
+        right: 0.5rem;
+        bottom:-3.5rem;
+        margin: .2rem auto;
     }
 }
