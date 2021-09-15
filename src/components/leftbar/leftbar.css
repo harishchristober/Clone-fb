@@ -1,0 +1,74 @@
+.leftbar{
+    flex: 3;
+    height: calc(100vh - 3.5rem);
+    overflow-y: scroll;
+    position: sticky;
+    top:  3.5rem;
+}
+
+::-webkit-scrollbar{
+    width: 0.3rem;
+}
+
+::-webkit-scrollbar-track{
+    background-color: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb{
+   background-color: rgba(152, 154, 156, 0.514);
+   height: 2rem;
+}
+
+.leftbarwrapper {
+    padding: 1.5rem;
+}
+
+.leftbarlist {
+margin: 0;
+margin-left: .3rem;
+padding: 0;
+list-style: none;
+}
+
+.leftbarlistitem {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1.5rem;
+    font-size: 1rem;
+    color: black;
+}
+
+.leftbaricon{
+    margin-right: 1.1rem;
+    font-size: 1.2rem;
+color: black;
+}
+
+.leftbarbtn {
+    width: 9.2rem;
+    text-align: center;
+   border: none;
+   border-radius: .5rem;
+    font-weight: 500;
+    padding: .7rem;
+    cursor: pointer;
+}
+
+.leftbarbtn:hover {
+    color: white;
+    background-color: #1877f2;
+    letter-spacing: .05rem;
+    transition-duration: .5s;
+}
+
+.leftbarhr {
+    margin: 1.3rem 0;
+    
+}
+
+.leftbarfriends {
+    margin: 0;
+    padding: 0;
+   list-style: none;
+}
+

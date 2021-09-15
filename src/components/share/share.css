@@ -1,0 +1,90 @@
+.share{
+    width: 100%;
+    -webkit-box-shadow: 0px 0px 16px -8px rgba(0, 0, 0, 0.68);
+  box-shadow: 0px 0px 16px -8px rgba(0, 0, 0, 0.68);
+  height: 10.65rem;
+  border-radius: .5rem;
+}
+
+.sharewrapper {
+   
+ padding: .7rem;
+      
+}
+
+.sharetop{
+    display: flex;
+    align-items: center;
+}
+
+
+
+.shareprofilepic {
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 1rem;
+}
+
+.sharetext{
+    width: 80%;
+    border: none;
+    font-size: .8rem;
+
+}
+
+.sharetext:focus{
+    outline: none;
+}
+
+.sharehr {
+    margin: 1.25rem ;
+}
+
+.sharebottom {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.shareoptions {
+    display: flex;
+    align-items: center;
+   margin-left: 1.2rem;
+}
+
+.shareoption {
+    display: flex;
+    align-items: center;
+    margin-right: 2.2rem;
+    cursor: pointer;
+}
+
+.shareicon {
+    font-size: 1.2rem;
+    margin-right: .6rem;
+}
+
+.shareoptiontext{
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.sharebtn{
+    margin-right: 1.5rem;
+    padding: .5rem  1.5rem;
+    font-size: .9rem;
+    font-weight: 500;
+    border: none;
+    border-radius: .3rem;
+    color: white;
+    background-color: #1877f2;
+    cursor: pointer;
+}
+
+.sharebtn:hover {
+    border: .3px solid rgba(199, 196, 196, 0.3);
+    letter-spacing: .1rem;
+    transition-duration: .5s;
+}

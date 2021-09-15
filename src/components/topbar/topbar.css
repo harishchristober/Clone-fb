@@ -1,0 +1,112 @@
+.topbarcontainer {
+    background-color: #1877f2;
+    height: 3.5rem;
+    display: flex;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+
+.topbarleft {
+    flex: 3;
+    display: flex;
+    align-items: center;
+}
+
+.fblogo {
+    margin-left: 3rem;
+    color: white;
+    font-size: 1rem;
+    padding: 0 .3rem;
+}
+
+.logo{
+    color: white;
+    font-size: 1.2rem;
+    font-weight: bold;
+    
+    cursor: pointer;
+}
+
+
+
+.topbarcenter {
+    flex: 5;
+}
+
+.searchbar {
+    display: flex;
+    align-items: center;
+    background-color: white;
+    border-radius: 1.8rem;
+    width: 100%;
+    height: 2rem;
+    align-items: center;
+}
+
+.searchicon {
+    font-size: 1rem !important;
+    margin-left: 1rem;
+}
+
+.searchinput{
+    margin-left: .5rem;
+    border: none;
+    width: 70%;
+}
+
+.searchinput:focus{
+    outline: none;
+}
+
+.topbarright {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: white;
+    flex: 4;
+}
+
+.topbarlink {
+   font-size: .9rem;
+   cursor: pointer;
+    margin-right: .7rem;
+}
+
+.topbariconlist{
+    display: flex;
+    
+}
+
+.topbaricon {
+    margin-right: 15px;
+    position: relative;
+    cursor: pointer;
+}
+
+.topbariconbadge{
+    width: .8rem;
+    height: .8rem;
+    position: absolute;
+    top: -3px;
+  right: -5px;
+    background-color: red;
+    color: white;
+    border-radius: 50%;
+    align-items: center;
+    font-size: .5rem;
+    text-align: center;
+    justify-content: center;
+}
+
+.profilepic {
+ height: 32px;
+ width: 32px;
+ border-radius: 50%;
+ object-fit: cover;
+ align-items: center;
+ cursor: pointer;
+ margin-bottom: .2rem;
+}

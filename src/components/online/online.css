@@ -1,0 +1,36 @@
+.rightbarfriendlist {
+   
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+    margin-left: .5rem;
+}
+
+.profilepiccontainer {
+    margin-right: .65rem;
+    position: relative;
+}
+
+.rightbarfriendimg {
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.onlinebadge {
+    background-color: limegreen;
+    border: 2px solid white;
+    border-radius: 50%;
+    position: absolute;
+    top: -2px;
+    right: 0;
+    width: 0.7rem;
+    height: 0.7rem;
+}
+
+.rightbarfriendname {
+    font-weight: 400;
+    font-size: 1rem;
+    margin-bottom: .6rem;
+}
