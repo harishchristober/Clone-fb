@@ -4,3 +4,15 @@
  .feedwrapper {
      padding: 1.25rem;
  }
+
+
+
+
+ @media (max-width:601px){ 
+
+    .feedtab{
+        width: 100%;
+    }
+
+
+}

@@ -87,3 +87,53 @@
       font-weight: 500;
       cursor: pointer;
   }
+
+
+
+
+
+
+  /* media queries  */
+
+@media (max-width:601px){
+
+    .register{
+        align-items: flex-start;
+        padding-top:1.5rem ;
+    }
+ 
+
+    .registerleft,
+    .registerright {
+      flex:20rem;
+    }
+  
+    .registerright {
+      margin-left: 0;
+  }
+  
+    .registerWrapper {
+      width: 80%;
+      height: 70%;
+      display: flex;
+      margin-top: 0;
+      flex-wrap: wrap;
+    }
+  
+    .registerBox{
+      margin-top: 4rem;
+    }
+  
+    .registerLogo {
+      font-size: 30px;
+    }
+  
+    .registerDesc{
+      font-size: 20px;
+    }
+  
+    .registerRegisterButton {
+      margin-left: 3.5rem;
+    }
+  
+  }

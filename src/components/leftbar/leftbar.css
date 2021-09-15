@@ -72,3 +72,19 @@ color: black;
    list-style: none;
 }
 
+
+
+
+
+
+
+/* media queries  */
+
+@media (max-width:601px){ 
+
+    .leftbar{
+        display: none;
+    }
+
+
+}

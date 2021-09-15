@@ -88,3 +88,23 @@
    cursor: pointer;
    color: rgba(92, 92, 92, 0.68);
 }
+
+
+
+
+
+
+
+
+@media (max-width:601px){ 
+
+    .post{
+        width: 100%;
+    }
+
+    .postimg {
+        height: 20rem;
+    }
+
+
+}

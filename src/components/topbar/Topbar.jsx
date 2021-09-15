@@ -44,7 +44,7 @@
                    </div>
                </div>
                <Link to="/"  style= {{textDecoration:"none"}}>
-               <img src="./assests/person/1.jpeg" alt="" className="profilepic"/>
+               <img src="./assests/person/7.jpeg" alt="" className="profilepic"/>
                </Link>
            </div>
        </div>

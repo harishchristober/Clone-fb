@@ -110,3 +110,34 @@
  cursor: pointer;
  margin-bottom: .2rem;
 }
+
+
+
+
+
+ /* media queries  */
+
+ @media (max-width:601px){ 
+
+
+
+    .topbarleft {
+        flex: 1 10px;
+    }
+    .topbarcenter {
+        flex: 1 10px;
+    }
+    .topbarright {
+        flex: 1 10px;
+    }
+
+    .fblogo {
+        margin-left: 1rem;
+       
+    }
+
+    .searchbar{
+        display: none;
+    }
+
+ }

@@ -100,3 +100,18 @@
     border-radius: .5rem;
     object-fit: cover;
 }
+
+
+
+
+
+/* media queries  */
+
+@media (max-width:601px){ 
+
+    .rightbar{
+        display: none;
+    }
+
+
+}

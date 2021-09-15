@@ -17,8 +17,8 @@ export default function Register() {
           <div className="registerBox">
             <input placeholder="Username" className="registerInput" required/>
             <input placeholder="Email" className="registerInput" required/>
-            <input placeholder="Password" className="registerInput" required/>
-            <input placeholder="Password Again" className="registerInput" required />
+            <input placeholder="Password" type="password" className="registerInput" required/>
+            <input placeholder="Password Again" type="password" className="registerInput" required />
             <Link to="/"  style= {{textDecoration:"none", color:"white"}}>
             <button className="registerButton">Sign Up</button>
             </Link>

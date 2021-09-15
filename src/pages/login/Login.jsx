@@ -17,7 +17,7 @@ export default function Login() {
         <div className="loginRight">
           <div className="loginBox">
             <input placeholder="Email" className="loginInput" required />
-            <input placeholder="Password" className="loginInput" required />
+            <input placeholder="Password" type="password" className="loginInput" required />
             <Link to="/home"  style= {{textDecoration:"none", color:"white"}}>
             <button className="loginButton">Log In</button>
             </Link>

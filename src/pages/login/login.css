@@ -93,3 +93,66 @@
       font-weight: 500;
       cursor: pointer;
   }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* media queries  */
+
+@media (max-width:601px){
+
+  .login{
+    align-items: flex-start;
+    padding-top:1.5rem ;
+}
+
+ 
+
+  .loginLeft,
+  .loginRight {
+    flex:20rem;
+  }
+
+  .loginRight {
+    margin-left: 0;
+}
+
+  .loginWrapper {
+    width: 80%;
+    height: 70%;
+    display: flex;
+    margin-top: 0;
+    flex-wrap: wrap;
+  }
+
+  .loginBox{
+    margin-top: 4rem;
+  }
+
+  .loginLogo {
+    font-size: 30px;
+  }
+
+  .loginDesc{
+    font-size: 20px;
+  }
+
+  .loginRegisterButton {
+    margin-left: 3.5rem;
+  }
+
+}
